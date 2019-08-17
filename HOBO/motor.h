@@ -1,9 +1,9 @@
 #ifndef __MOTOR_H
 #define __MOTOR_H
 
-#define MOTOR_DELAY 3500
+#define MOTOR_DELAY 2500
 #define REG_TIMES 5
-#define TURN_TIMES 5
+#define TURN_TIMES 40
 #define BACK_TIMES 0
 
 #define FRONT 1542
@@ -11,7 +11,7 @@
 #define RIGHT 5217
 #define BACK 5454
   
-int portsR[] = {28, 26, 24, 22};
+int portsR[] = {22, 24, 26, 28};
 int portsL[] = {29, 27, 25, 23};
 
 void setupMotors() {

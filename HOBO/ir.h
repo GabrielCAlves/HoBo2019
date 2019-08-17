@@ -1,7 +1,7 @@
 #ifndef __INFRA_RED_H
 #define __INFRA_RED_H
 
-#define DEFAULT_WM 100
+#define DEFAULT_WM 130
 
 struct IR {
   int port, whiteMAX;
